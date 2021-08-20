@@ -1,0 +1,9 @@
+- id: xmllint
+  name: xmllint
+  description: Lint xml files with xmllint
+  # We pass in the `--noout` flag here instead of via `args` to prevent it
+  # from being overridden. The flag stops xmllint from printing the xml after
+  # running.
+  entry: xmllint --noout
+  language: docker
+  types: [xml]
