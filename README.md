@@ -1,4 +1,4 @@
-# Pre-Commit Xmllint Check
+# XML lint hook for pre-commit
 
 Lint your xml files with xmllint.
 
